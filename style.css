@@ -6,6 +6,9 @@ body{
   
 }
 
+p{
+    line-height: 25px;
+}
 .flex{
     display: flex;
     
@@ -114,4 +117,36 @@ footer.footer-area {
     padding: 40px 0;
     background: #0B0D17;
     color: #fff;
+    margin-top: 100px;
+}
+.maring-right{
+    margin-right: 40px;
+}
+
+.bg-left, .bg-right{
+    position: relative;
+}
+.bg-left::before{
+    content: '';
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-size: contain;
+    top: 100px;
+    left: -116px;
+    z-index: -1;
+}
+.bg-right::after{
+    content: '';
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background-size: contain;
+    right: -100px;
+    bottom: -50px;
+    z-index: -1;
 }
