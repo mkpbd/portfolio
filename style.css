@@ -3,7 +3,7 @@ body{
     padding: 0;
     list-style: none;
     font-size: 16px;
-  
+    font-family: 'Poppins', sans-serif;
 }
 
 p{
@@ -53,12 +53,13 @@ p{
 }
 .link-button{
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: #ff5959;
     border-radius: 5px;
     color: #fff;
     margin: 20px 0;
     display: inline-block;
+    font-weight: 700;
 
 
 }
@@ -175,6 +176,7 @@ footer.footer-area {
     letter-spacing: 3px;
     position: relative;
     font-size: 25px;
+    font-weight: 400;
 }
 
 .Contct-area h3:after {
