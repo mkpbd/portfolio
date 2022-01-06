@@ -174,15 +174,16 @@ footer.footer-area {
     text-transform: uppercase;
     letter-spacing: 3px;
     position: relative;
+    font-size: 25px;
 }
 
 .Contct-area h3:after {
     content: '';
     position: absolute;
-    width: 88%;
+    width: 85%;
     height: 0;
     border: 0.6px solid #000;
-    top: 9px;
+    top: 14px;
     right: 0;
 }
 
@@ -247,4 +248,3 @@ footer.footer-area {
     background-color: rgba(88, 79, 79,.8);
     padding: 10px;
 }
-~
